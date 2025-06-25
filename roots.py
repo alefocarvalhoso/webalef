@@ -5,6 +5,6 @@ from flask import render_template
 def homepage():
     return render_template("homepage.html")
 
-@app.route("/gpt")
+@app.route("/blog")
 def blog():
-    return "sai daqui."
+    return render_template("blog.html")
