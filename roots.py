@@ -8,3 +8,11 @@ def homepage():
 @app.route("/blog")
 def blog():
     return render_template("blog.html")
+
+@app.route("/test")
+def tests():
+    return render_template("no.html")
+
+@app.route("/love")
+def lovepag():
+    return render_template("love.html")
